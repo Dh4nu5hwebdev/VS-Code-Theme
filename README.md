@@ -14,3 +14,8 @@ Example:
 <br>
 "file:///C:/Users/Dhanush/Videos/custom.js"
 <br>],
+
+<br>
+<br>
+To use the theme also need to use font fira code. 
+(Font is starred in account).
