@@ -19,3 +19,5 @@ Example:
 <br>
 To use the theme also need to use firafont  code. 
 (Font is starred in account).
+<br>
+Also enable ligatures in settings.
