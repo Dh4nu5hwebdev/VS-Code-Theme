@@ -17,5 +17,5 @@ Example:
 
 <br>
 <br>
-To use the theme also need to use font fira code. 
+To use the theme also need to use firafont  code. 
 (Font is starred in account).
