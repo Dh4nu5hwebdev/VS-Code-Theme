@@ -1,0 +1,99 @@
+.mtk10 {
+    color: yellow;
+    background-image: linear-gradient(45deg, #ff61d2, #fe908f);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+.mtk5 {
+    color: #50fa7b;
+    background-image: linear-gradient(45deg, #11998f, #38ef7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+}
+monaco-editor .detected-link, .monaco-editor .detected-link-active {
+    text-decoration: none;
+    text-underline-position: under;
+    border-bottom: 2px dashed #efdf62;
+}
+.monaco-list-rows.focused
+{
+    outline: none !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
+    background-color: var(--tab-border-top-color);
+    height: 5px;
+    top: 0;
+    z-index: 6;
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+}
+
+/* .command-center-center {
+    width: auto !important;
+} */
+
+/* Customizing the Starting vs code icon when no tabs are opened */
+
+
+   
+    
+/*  */
+/* .editor-group-watermark {
+    max-width: none !important; */
+
+    /* Actions after command palette text input */
+.quick-input-inline-action-bar .actions-container .action-item{
+	margin-bottom: 16px !important; /* Same margin-bottom as .monaco-inputbox */
+}
+.quick-input-header{
+	align-items: center;
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+/* Container that holds the VS Code home icon. */
+.editor-group-watermark {
+    max-width: none !important;
+}
+/* Remove background for lists */
+.monaco-list-rows {
+    background: transparent !important;
+}
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+    border-radius: 12px !important;
+    padding: 16px !important;
+    border: none !important;
+    /* background-color: rgba(34, 34, 34, .40) !important; */
+    font-family: "Fira Code" !important;
+    font-size: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, .15); */
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+    /* backdrop-filter: ; */
+}
+.quick-input-header{
+	align-items: center;
+}
+.quick-input-widget {
+  position: fixed !important;
+  top: 50%        !important;
+  left: 50%       !important;
+  transform: translate(-50%, -50%) !important;
+}
+
